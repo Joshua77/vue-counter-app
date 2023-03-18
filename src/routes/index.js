@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { HomePage, CounterApp, PageNotFound } from '@/pages';
+import { HomePage, CounterApp, PageNotFound } from '@/Pages';
 //import { HomePage } from "./pages/HomePage"
 //import { CounterApp } from "./pages/CounterApp"
 //import { PageNotFound } from "./pages/PageNotFound"
