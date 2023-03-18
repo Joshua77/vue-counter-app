@@ -29,7 +29,7 @@
 </template>
   
 <script>
-    import useCounter from '@/composables/counter'
+    import useCounter from '@/Composables/counter'
     import { NavBar, Footer } from "../components";
     
     export default {
