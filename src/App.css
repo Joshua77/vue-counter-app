@@ -30,7 +30,7 @@ section {
 
 .title {
   color: var(--deepblue);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Nav */
@@ -53,7 +53,7 @@ section {
 .link {
   text-decoration: none;
   padding: 1em;
-  color: var(--grey);
+  color: var(--white);
 }
 
 .link:hover {
@@ -67,11 +67,12 @@ section {
 
 /* Counter */
 .count {
-    color: var(--deepblue);
+    color: var(--white);
     margin: 1em;
     padding: 10px;
     border: 1px solid var(--deepblue);
     border-radius: 10px;
+    background-color: #4e31aa;
   
   }
   
@@ -96,7 +97,7 @@ section {
     font-weight: bolder;
     width: 100px;
     padding: 10px;
-    color: var(--deepblue);
+    color: var(--white);
     background-color: var(--blue);
   }
   .submit:hover{
@@ -119,19 +120,24 @@ section {
     box-shadow: 0 0 3px 2px var(--grey);
   }
   
-  .button {
+  .button-a {
     background-color: green;
+    color: var(--white)
+  }
+
+  .button-b {
+    background-color: red;
     color: var(--white)
   }
   
   .reset {
-    background-color: red;
+    background-color: var(--black);
     color: var(--white)
   }
   /* Footer */
   .footer {
     background: var(--blue);
-    color: var(--grey);
+    color: var(--black);
     text-align: center;
   
   }
@@ -139,7 +145,7 @@ section {
   .footer a {
     padding: 1em;
     text-decoration: none;
-    color: var(--deepblue);
+    color: var(--white);
   }
 
   /* Page Not Found */
@@ -174,6 +180,7 @@ section {
   
   .avatar {
     margin-right: 20em;
+    
   }
   
   .intro {

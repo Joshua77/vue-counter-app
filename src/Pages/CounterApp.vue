@@ -13,11 +13,11 @@
           <input class="input-field" type="number" v-model="value" />
           <input class='submit' type='submit' @click='setValue(value)' value='Set Value'>
         </div>
-        <button className="button" @click="increment">
+        <button className="button-a" @click="increment">
           +
         </button>
         <button 
-        className="button" @click="decrement">
+        className="button-b" @click="decrement">
           -
         </button>
         <button className="reset" @click="reset">
